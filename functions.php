@@ -18,7 +18,7 @@ function sgv6_child_enqueue() {
     define( '_SG_FILE_VERSION', $published_file_version );
   }
 	
-	wp_enqueue_style( 'sgv6-child-style', get_stylesheet_directory_uri().'/salonguru.css', array(), _SG_FILE_VERSION, 'all' );
-	wp_enqueue_script( 'sgv6-child-script', get_stylesheet_directory_uri().'/salonguru.js', array('jquery'), _SG_FILE_VERSION, true );
+	wp_enqueue_style( 'sgv6-child', get_stylesheet_directory_uri().'/salonguru.css', array(), _SG_FILE_VERSION, 'all' );
+	wp_enqueue_script( 'sgv6-child', get_stylesheet_directory_uri().'/salonguru.js', array('jquery'), _SG_FILE_VERSION, true );
 }
 add_action( 'wp_enqueue_scripts', 'sgv6_child_enqueue', 80 ); //priority is important, parent is 75
