@@ -21,6 +21,10 @@
  .site-header .desktop-header .row1 .socialmedia {text-align: right; padding-right: 30px;}
  .site-header .desktop-header .row1 a.social-media-button {margin-right:15px;font-size:26px;text-decoration:none;color:#000!important;}
  .site-header .desktop-header .row1 a.social-media-button:hover {color:#888!important;}
+
+ .page-id-27855 ul.line-list {width:100%;margin:0px ;padding-bottom:30px;list-style:none;}
+ .page-id-27855 ul.line-list li {font-family: "Montserrat", sans-serif; padding:2px 0px;text-align:left;font-size:16px;border-bottom:1px solid #ccc; margin:0;}
+ 
 }
 
 /* MOBILE BELOW (NO BREAKPOINTS) */
@@ -28,27 +32,6 @@
 /* HOME 2024 FONT */
  @font-face { font-family: 'CormorantGaramond'; font-weight: 400; font-style: italic; font-display: block; src: url("fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf"); }
  @font-face { font-family: 'Montserrat'; font-weight: 400; font-style: italic; font-display: block; src: url("fonts/Montserrat-Regular.ttf"); }
- 
- /* FA ICONS */
- @font-face {font-family: 'Font Awesome 5 Brands';font-style: normal;font-weight: 400;font-display: block;src: url("fonts/fa-brands-400.eot"); src: url("fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa-brands-400.woff2") format("woff2"), url("fonts/fa-brands-400.woff") format("woff"), url("fonts/fa-brands-400.ttf") format("truetype"), url("fonts/fa-brands-400.svg#fontawesome") format("svg"); }
- @font-face {font-family: 'Font Awesome 5 Free';font-style: normal;font-weight: 400;font-display: block;src: url("fonts/fa-regular-400.eot"); src: url("fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa-regular-400.woff2") format("woff2"), url("fonts/fa-regular-400.woff") format("woff"), url("fonts/fa-regular-400.ttf") format("truetype"), url("fonts/fa-regular-400.svg#fontawesome") format("svg"); }
- @font-face {font-family: 'Font Awesome 5 Free';font-style: normal;font-weight: 900;font-display: block;src: url("fonts/fonts/fa-solid-900.eot"); src: url("fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/fa-solid-900.woff2") format("woff2"), url("fonts/fa-solid-900.woff") format("woff"), url("fonts/fonts/fa-solid-900.ttf") format("truetype"), url("fonts/fa-solid-900.svg#fontawesome") format("svg"); }
- 
- .fa, .fas {font-family: 'Font Awesome 5 Free';font-weight: 900; }
- .fa, .fas, .far, .fab {-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1; }
- .fab {font-family: 'Font Awesome 5 Brands';font-weight: 400;}
- .far {font-family: 'Font Awesome 5 Free';font-weight: 400; }
- .fa-twitter:before {content: "\f099"; }
- .fa-twitter-square:before {content: "\f081"; }
- .fa-instagram:before {content: "\f16d"; }
- .fa-instagram-square:before {content: "\e055"; }
- .fa-facebook:before {content: "\f09a"; }
- .fa-facebook-f:before {content: "\f39e"; }
- .fa-check:before {content: "\f00c"; }
- .fa-envelope:before {content: "\f0e0";}
- .fa-snapchat:before { content: "\f2ab"; }
- .fa-tiktok:before { content: "\e07b"; }
- .fa-yelp:before { content: "\f1e9"; }
  
  /* GENERAL */
  body { background-color: #fff;  }
@@ -64,7 +47,10 @@
  article {width:100%;max-width:1200px;margin:0 auto;padding:30px;background:#fff;}
  
  .widget li { margin: 0.3rem 0 0.3rem 20px;text-align: left; }
- 
+
+ /* FA ICONS */
+ .fa-snapchat:before { content: "\f2ab"; }
+ .fa-yelp:before { content: "\f1e9"; }
 
 /* HEADER */
 #site-header .header-titles-wrapper {padding:0;}
@@ -73,7 +59,7 @@
 #site-header .desktop-header .row1 .column {width:100%;padding:5px;text-align: center!important;}
 #site-header .desktop-header .row1 .column:nth-child(1) {text-align: center;}
 #site-header .desktop-header .row1 .socialmedia {text-align:center;float:unset;}	
- 
+
  /* NAVIGATION */
 
  body:not(.overlay-header) ul.primary-menu, ul.primary-menu { justify-content: center; letter-spacing: normal;margin: 10px 0px; }
