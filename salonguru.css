@@ -24,7 +24,7 @@
  .site-header .desktop-header .row1 .column:nth-child(3) {text-align: right;}
  
  .site-header .desktop-header .row1 .socialmedia {text-align: right; padding-right: 30px;}
- .site-header .desktop-header .row1 a.social-media-button {margin-right:15px;font-size:26px;text-decoration:none;color:#000!important;}
+ .site-header .desktop-header .row1 a.social-media-button {margin-right:0px;font-size:26px;text-decoration:none;color:#000!important;}
  .site-header .desktop-header .row1 a.social-media-button:hover {color:#888!important;}
 
  .page-id-27855 ul.line-list {width:100%;margin:0px ;padding-bottom:30px;list-style:none;}
@@ -130,7 +130,7 @@
  .page-id-27855 main h2 { text-align:left; font-size: 45px; line-height: 1; color: #5c483a; }
  .page-id-27855 main h3 { margin:20px 0 10px; font-size: 20px; color: #5c483a; }
  .page-id-27855 .banner-row {min-height:800px;}
- .page-id-27855 .banner-row h2 {margin-bottom:50px;font-weight:700;font-size: 50px; color: white;}
+ .page-id-27855 .banner-row h2 {margin-bottom:50px;font-weight:700;font-size: 80px; color: white;}
  .page-id-27855 .banner-row h3 {margin:90px 0px;}
  .page-id-27855 .banner-row .w-bg {padding:100px 0;background-repeat:no-repeat;background-position:center;}
  .page-id-27855 .banner-row p {font-size: 25px; color:white;}
