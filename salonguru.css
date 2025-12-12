@@ -152,7 +152,7 @@ body { background-color: #fff;  }
  /* HOME 2024 */
  .page-id-27855 article, .page-id-27855 main {max-width: 100%; padding: 0;}
  .page-id-27855 body, button, input, select, textarea, td, p, div.textwidget {font-family: "Montserrat", sans-serif;line-height: 1.5;}
- .page-id-27855 main h1, main h2, main h3, main h4 {font-weight:700; font-family: "CormorantGaramond", sans-serif;}
+ .page-id-27855 main h1, main h2, main h3, main h4 {font-weight:700; font-family: "CormorantGaramond", sans-serif !important;}
  .page-id-27855 main p, main em, main table, main ul, main li, a {font-family: "Montserrat", sans-serif;line-height: 1.5;text-decoration: none;font-weight:400;text-align: left;font-size: 13px; }
  .page-id-27855 main h1 { text-align:center; margin-top: 3rem; letter-spacing: normal; font-size: 40px;}
  .page-id-27855 main h2 { text-align:left; font-size: 32px; line-height: 1; color: #5c483a; }
