@@ -54,7 +54,6 @@ body { background-color: #fff;  }
  main h1 { text-align:center; margin-top: 3rem; letter-spacing: normal; font-size: 40px;  }
  main h2 { text-align:left; font-size: 30px; line-height: 1; }
  main h3 { margin:20px 0 10px; font-size: 20px;}
- a, main a:hover, main a:visited, main a:active {color: #000;}
  
  main {margin:0px;padding:30px;background:#ededed;}
  article {width:100%;max-width:1200px;margin:0 auto;padding:30px;background:#fff;}
