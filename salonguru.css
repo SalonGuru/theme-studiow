@@ -22,6 +22,10 @@
 .page-id-27855 .reviews-row, .page-id-27855 .new-client-text, .page-id-27855 .row-2, .page-id-27855 .row-3, .page-id-27855 .row-4 {padding:0px!important;margin: 0 0 50px 0 !important;}
 
  .site-footer [class^="widget"] * {color:#fff !important; text-align:left !important;}
+    
+body main {margin:0px;padding:30px;background:#ededed;}
+body.page-template-default main {max-width:100%!important;}
+body article {width:100%;max-width:1200px;margin:0 auto!important;padding:30px;background:#fff;}
 
 }
 
