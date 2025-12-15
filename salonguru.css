@@ -119,14 +119,14 @@ body { background-color: #fff;  }
  .menu-modal .modal-menu{width:100%;}
  .modal-menu a:focus{text-decoration:none;}
  .modal-menu a:hover{text-decoration:none;}
- .modal-menu li.current-menu-item > .ancestor-wrapper > a{text-decoration:none;}
+ .modal-menu li.current-menu-item > .ancestor-wrapper > a{text-decoration:none; }
  .modal-menu li.current_page_ancestor > .ancestor-wrapper > a{text-decoration:none;}
  .menu-modal .modal-menu > li{border-bottom:1px solid #000;width:100%;}
  .menu-modal li a{display:block;color:#000;font-size:16px !important;font-weight:400;letter-spacing:1px;text-transform:uppercase;padding:20px;font-family:"Century Gothic",CenturyGothic,AppleGothic,sans-serif !important;}
  .menu-modal .sub-menu-toggle{background:none;border:none;padding:0 30px;display:flex;align-items:center;}
  .menu-modal .sub-menu-toggle svg{width:22px;height:14px;fill:#000;}
  .menu-modal .sub-menu{border-top:1px solid #000;padding:0;margin:0;}
- .menu-modal .sub-menu li a{font-size:16px;padding:22px 60px 22px 45px;text-transform:none;letter-spacing:.5px;}
+ .menu-modal .sub-menu li a{font-size:16px;padding:22px 60px 22px 45px;text-transform:none;letter-spacing:.5px;text-transform:uppercase;}
  .menu-modal .header-button a{background:#fff;color:#000!important;text-align:left;}
  .menu-modal .header-button a:hover{background:#444;}
  .menu-modal:not(.fullwidth) button.close-nav-toggle{background:#000;padding:20px;}
